@@ -20,7 +20,7 @@ gcc detect_slow_win.c -lpcap
 
 [実行]
 
-./ a.out <eth0> 
+./ a.out < eth0 > 
 
 <>カッコ内はネットワークインタフェイスを入力する．
 <>カッコは必要なし
